@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="party.css" />
+    <script src="party.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Party Time in New Vegas!</h1>
+    </header>
+    <div id="new-event-form-container">
+      <form id="new-event-form">
+        <label for="name">
+          Name:
+          <input type="text" id="name" placeholder="Name" />
+        </label>
+        <label for="imageUrl">
+          Image URL:
+          <input
+            type="text"
+            id="imageUrl"
+            name="imageUrl"
+            placeholder="Image URL"
+          />
+        </label>
+        <label for="description">
+          Description:
+          <textarea
+            id="description"
+            name="description"
+            placeholder="Description"
+          ></textarea>
+        </label>
+        <label>
+          Date:
+          <input type="date" name="date" />
+        </label>
+        <button type="submit">Create</button>
+      </form>
+    </div>
+    <div id="events-container"></div>
+
+    <footer>
+      <h3 id="footerTitle">Sponsored by the NCR</h3>
+      <a
+        href="https://fallout.fandom.com/wiki/New_California_Republic"
+        id="ncr-logo-container"
+        ><img
+          src="https://e0.pxfuel.com/wallpapers/527/273/desktop-wallpaper-california-flag-new-california-republic.jpg"
+          alt="NCR Flag"
+          id="ncrLogo"
+      /></a>
+    </footer>
+  </body>
+</html>
