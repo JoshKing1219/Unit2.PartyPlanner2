@@ -56,7 +56,7 @@ const removeEvent = async (id) => {
 
 //Render all of the events on the webpage
 const renderAllEvents = () => {
-  const eventsConstainer = documnet.getElementById("events-container");
+  const eventsConstainer = document.getElementById("events-container");
   const eventList = state.events;
 
   if (!eventList || eventList.length === 0) {
